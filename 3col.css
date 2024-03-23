@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 2rem;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.parent{
+    background-color: hsl(31, 77%, 52%);
+    height: 120%;
+}
+.child{
+    background-color: hsl(184, 100%, 22%);
+    height: 120%;
+}
+.names{
+    background-color: hsl(179, 100%, 13%);
+    height: 120%;
+}
+.parent,.child,.names{
+    padding: 50px;
+}
+.parent a, .child a, .names a{
+    text-decoration: none;
+    border: 2px solid#fff;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+}
